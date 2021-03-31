@@ -1,4 +1,4 @@
-package za.ac.cput;
+package za.ac.cput.za.ac.cput;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
@@ -8,7 +8,7 @@ import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
 /**
- * This is a small program
+ * This is person programme
  * Author: Ottor Ncedo 218052200
  * Date: 31 March 2021
  */
@@ -57,7 +57,8 @@ class PersonTest {
     void timeoutExceeded() {
 
         assertTimeout(Duration.ofMinutes(1), () ->{
-            //Thread.sleep(100);
+
         });
     }
+
 }
