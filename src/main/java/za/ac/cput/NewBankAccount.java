@@ -19,7 +19,9 @@ public class NewBankAccount {
         this.lastName = lastName;
         this.id = ++lastId;
     }
+    public NewBankAccount(){
 
+    }
     public String getName() {
         return name;
     }
@@ -76,6 +78,16 @@ public class NewBankAccount {
                 e.printStackTrace();
             }
         }
+    }
+
+    @Override
+    public String toString() {
+        return "NewBankAccount{" +
+                "name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", id=" + id +
+                ", balance=" + balance +
+                '}';
     }
 }
 
