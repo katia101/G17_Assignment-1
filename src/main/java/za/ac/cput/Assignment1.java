@@ -1,5 +1,8 @@
 package za.ac.cput;
-
+/**
+ * Mandisa Msongelwa
+ * 217149073
+ * */
 public class Assignment1 {
     private int birthYear;
     private int currentYear;
