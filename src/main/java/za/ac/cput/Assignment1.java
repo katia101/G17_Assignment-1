@@ -5,6 +5,7 @@ public class Assignment1 {
     private int currentYear;
     private int age;
 
+
     public Assignment1(int birthYear, int currentYear)
     {
         this.birthYear = birthYear;
