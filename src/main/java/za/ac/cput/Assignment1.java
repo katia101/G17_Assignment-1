@@ -10,6 +10,8 @@ public class Assignment1 {
         this.birthYear = birthYear;
         this.currentYear = currentYear;
     }
+    public Assignment1(){}
+
 
     public int getBirthYear() {
         return birthYear;
