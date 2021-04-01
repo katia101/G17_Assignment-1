@@ -6,6 +6,7 @@ package za.ac.cput;
  * 215133765
  * ADP 3
  * Assignment
+ * 01 April 2021
  * */
 public class NewBankAccount {
     private String name ;
