@@ -20,15 +20,14 @@ class NewBankAccountTest {
         bankAccount = new NewBankAccount();
         Test = bank;
     }
-
-    @Test
-    void testIdentity(){
-    assertSame(bank, Test);
-    }
-
     @Test
     void testEquality(){
         assertEquals(bank, Test);
+    }
+
+    @Test
+    void testIdentity(){
+    assertSame(bank, bankAccount);
     }
 
     @Test
