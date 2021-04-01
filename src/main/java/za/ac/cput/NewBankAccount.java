@@ -1,12 +1,12 @@
 package za.ac.cput;
 /*
-*
-* @author Mziyanda
-* Mziyanda Mwanda
-* 215133765
-* ADP 3
-* Assignment
-* */
+ *
+ * @author Mziyanda
+ * Mziyanda Mwanda
+ * 215133765
+ * ADP 3
+ * Assignment
+ * */
 public class NewBankAccount {
     private String name ;
     private String lastName;
